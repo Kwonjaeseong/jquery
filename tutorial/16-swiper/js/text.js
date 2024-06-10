@@ -2,5 +2,5 @@ const text = '언니를 추측하냐 고개의 물어보라 기소의 없을 자
     const textBox = document.querySelectorAll('section p')
 
     textBox.forEach(item => {
-      item.innertext = text
+      item.innerText = text
     })

@@ -27,3 +27,17 @@
   
     <button>login</button>
   </header>
+
+  <script>
+    var str = location.pathname
+    console.log(str);
+    if(str.includes('main')) {
+      $('.gnb li').eq(0).addClass('active')
+    }
+    if(str.includes('intro')) {
+      $('.gnb li').eq(1).addClass('active')
+    }
+    if(str.includes('service')) {
+      $('.gnb li').eq(2).addClass('active')
+    }
+  </script>
